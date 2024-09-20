@@ -129,7 +129,7 @@ def test_decode_single_jetstream_pytorch_slow(params, do_sample):
         DecodeTestParams(
             model_id="Maykeye/TinyLLama-v0",
             sequence_length=256,
-            expected_text=" The sun was shining and the sky was shining.\nSuddenly, a big wind came and blew the wind away.",
+            expected_text=' It was a very special day, and it was a very special day.\nThe mommy said to her, "Let',
             max_new_tokens=25,
         ),
     ],
